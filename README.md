@@ -1,2 +1,2 @@
 # Hello-World
-Repository to test github related operations.
+Repository for miscellaneous stuff and snippets.
