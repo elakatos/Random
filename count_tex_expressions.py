@@ -1,12 +1,22 @@
+#!/usr/bin/env python
+
+'''
+A fun skim-through of my thesis to answer @yosoykit's question: https://twitter.com/yosoykit/status/996870912963117056
+
+@Author: Eszter Lakatos
+'''
+#Define the list of tex expressions to be counted, use \\ to escape regular expressions
 expressions = ['\\frac', "\\cdot", '\\rightarrow', '\\ref', '\\text{', '\\mathbf', "\\left", '\\right', '\\sim', '\\mu', '\\dot', '\\begin{bmatrix}', '\\sigma', '\\mathbb', '\\alpha', '\\beta', '\\int', '=']
 
+# Define directory of tex files (give absolute path) and query all texfiles from it
 texDirectory = '/Users/el613/Documents/Writeup/Thesis'
-texFiles = ['chapter_background.tex', 'chapter_mcmea.tex', 'chapter_p53abc.tex', 'chapter_landscape.tex', 'chapter_reachability.tex', 'appendixA.tex', 'appendixB.tex', 'appendixC.tex']
+texFiles = glob.glob(texDirectory+'/*.tex')
 
 exprDict = {expr : 0 for expr in expressions }
 
+# For each texfile, count the number of expressions and update dictionary
 for i in range(len(texFiles)):
-	with open(texDirectory+'/'+texFiles[i], 'r') as infile:
+	with open(texFiles[i], 'r') as infile:
 		lines = infile.readlines()
 
 	for line in lines:
