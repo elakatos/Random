@@ -1,2 +1,2 @@
-# Hello-World
-Repository for miscellaneous stuff and snippets.
+# Random
+Repository for miscellaneous stuff and snippets outside work.
