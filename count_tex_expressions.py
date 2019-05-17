@@ -5,6 +5,8 @@ A fun skim-through of my thesis to answer @yosoykit's question: https://twitter.
 
 @Author: Eszter Lakatos
 '''
+import glob
+
 #Define the list of tex expressions to be counted, use \\ to escape regular expressions
 expressions = ['\\frac', "\\cdot", '\\rightarrow', '\\ref', '\\text{', '\\mathbf', "\\left", '\\right', '\\sim', '\\mu', '\\dot', '\\begin{bmatrix}', '\\sigma', '\\mathbb', '\\alpha', '\\beta', '\\int', '=']
 
