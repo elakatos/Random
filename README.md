@@ -10,4 +10,4 @@ Gameboard generator for the awesome association boardgame [Codenames](https://cz
 To be used only as an extra randomiser for junkies who know them all by heart or if you happened to only have your duet set with you.
 
 ## shorten_bib_authorlist.py
-A quick automated way using only built-in functions to process a .bib file for journal-specific author-list-length criteria. A quick fix in case you do not have access/desire to customise the bibliography style: it cuts the list of authors after the Nth author and substitutes "others". The original author list is lost, so always write to a new independent file.
+A quick automated way using only built-in functions to process a .bib file for journal-specific author-list-length criteria (using et al. after the Nth author). A quick fix in case you do not have access/desire to customise the bibliography style: it cuts the list of authors after the Nth author and substitutes "others". The original author list is lost, so always write to a new independent file.
