@@ -11,3 +11,6 @@ To be used only as an extra randomiser for junkies who know them all by heart or
 
 ## shorten_bib_authorlist.py
 A quick automated way using only built-in functions to process a .bib file for journal-specific author-list-length criteria (using et al. after the Nth author). A quick fix in case you do not have access/desire to customise the bibliography style: it cuts the list of authors after the Nth author and substitutes "others". The original author list is lost, so always write to a new independent file.
+
+## Random_walk_1D.ipynb
+Jupyter notebook in Python that simulates a one-dimensional random walk (hopping left and right on a line). With some background reading references and bits of code left blank for practice.
